@@ -1,0 +1,161 @@
+.product-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.product-image-container {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.product-info {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.product-info h3 {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 0;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.dark-theme .product-info h3 {
+  color: #ffe066;
+}
+
+.product-description {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+  flex: 1;
+}
+
+.product-price {
+  font-weight: bold;
+  color: #444;
+  font-size: 1.1rem;
+  margin-top: auto;
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 1024px) {
+  .product-card {
+    border-radius: 10px;
+  }
+  
+  .product-image-container {
+    height: 220px;
+    padding: 0.8rem;
+  }
+  
+  .product-info {
+    padding: 1.2rem;
+  }
+  
+  .product-info h3 {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .product-card {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .product-image-container {
+    height: 200px;
+    padding: 0.7rem;
+  }
+  
+  .product-info {
+    padding: 1rem;
+    gap: 0.4rem;
+  }
+  
+  .product-info h3 {
+    font-size: 1.1rem;
+  }
+  
+  .product-description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
+  
+  .product-price {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-card {
+    border-radius: 6px;
+  }
+  
+  .product-image-container {
+    height: 180px;
+    padding: 0.5rem;
+  }
+  
+  .product-info {
+    padding: 0.8rem;
+  }
+  
+  .product-info h3 {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+  
+  .product-description {
+    font-size: 0.8rem;
+    margin: 0.3rem 0;
+  }
+  
+  .product-price {
+    font-size: 0.95rem;
+  }
+}
+
+/* Touch enhancements */
+@media (hover: none) and (pointer: coarse) {
+  .product-card:hover {
+    transform: none;
+  }
+  
+  .product-card:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease;
+  }
+}

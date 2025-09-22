@@ -1,0 +1,89 @@
+.floating-whatsapp-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 56px;
+  height: 56px;
+  background: #25D366;
+  border-radius: 50%;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  min-height: 56px;
+  min-width: 56px;
+}
+
+.floating-whatsapp-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.28);
+}
+
+.floating-whatsapp-btn:active {
+  transform: scale(0.95);
+  transition: transform 0.1s ease;
+}
+
+.floating-whatsapp-btn img {
+  width: 28px;
+  height: 28px;
+  pointer-events: none;
+}
+
+/* Enhanced mobile responsiveness */
+@media (max-width: 768px) {
+  .floating-whatsapp-btn {
+    right: 16px;
+    bottom: 16px;
+    width: 60px;
+    height: 60px;
+    min-height: 60px;
+    min-width: 60px;
+  }
+  
+  .floating-whatsapp-btn img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-whatsapp-btn {
+    right: 14px;
+    bottom: 14px;
+    width: 58px;
+    height: 58px;
+    min-height: 58px;
+    min-width: 58px;
+  }
+  
+  .floating-whatsapp-btn img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .floating-whatsapp-btn {
+    transition: none;
+  }
+  
+  .floating-whatsapp-btn:hover {
+    transform: none;
+  }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+  .floating-whatsapp-btn {
+    border: 2px solid #000;
+  }
+}
