@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 import './components/Navbar.css'
 import './i18n/i18n'
@@ -12,6 +14,7 @@ import ProductPage from './pages/ProductPage'
 import ProductsPage from './pages/ProductsPage'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
 import ScrollToTop from './components/ScrollToTop'
+
 
 // Import Jayagante images
 import jayagante1 from './assets/products/jayagante/jaya-removebg-preview.png'
@@ -131,6 +134,8 @@ function App() {
             <ProductPage type="jayagante" images={[jayagante1, jayagante2, jayagante3]} />
           } />
         </Routes>
+        <SpeedInsights />
+        <Analytics />
       </div>
     </Router>
   );
