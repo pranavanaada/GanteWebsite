@@ -28,6 +28,7 @@ const AboutUs = () => {
           <div className="namaste-container">
             <div className="namaste-symbol">🙏</div>
             <div className="namaste-text">Namaste</div>
+             <div className="namaste-text">|| Sri Ranga Sadgurave Namaha ||</div>
             <div className="namaste-subtitle">{t('welcome')}</div>
           </div>
         </div>
@@ -103,8 +104,8 @@ const AboutUs = () => {
               <span>Brass</span>
             </div>
             <div className="metal-item">
-              <div className="metal-icon lead">Pb</div>
-              <span>Lead</span>
+              <div className="metal-icon lead">Tin</div>
+              <span>Tin</span>
             </div>
           </div>
         </section>

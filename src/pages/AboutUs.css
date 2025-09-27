@@ -380,7 +380,6 @@
 .metal-icon.copper { background: linear-gradient(135deg, #b87333, #8b4513); }
 .metal-icon.tin { background: linear-gradient(135deg, #d3d3d3, #a9a9a9); }
 .metal-icon.brass { background: linear-gradient(135deg, #cd7f32, #b8860b); }
-.metal-icon.lead { background: linear-gradient(135deg, #36454f, #2f4f4f); }
 
 /* Responsive Design */
 @media (max-width: 768px) {
