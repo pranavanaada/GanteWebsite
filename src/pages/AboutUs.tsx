@@ -104,8 +104,8 @@ const AboutUs = () => {
               <span>Brass</span>
             </div>
             <div className="metal-item">
-              <div className="metal-icon lead">Tin</div>
-              <span>Tin</span>
+                <div className="metal-icon tin">Sn</div>
+                <span>Tin</span>
             </div>
           </div>
         </section>
