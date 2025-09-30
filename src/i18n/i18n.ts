@@ -17,7 +17,7 @@ const resources = {
       "hangingBell": "Hanging Bell",
       "jayagante": "Jayagante",
       "description": "Discover our collection of traditional pooja bells",
-      "ourStoryContent": "Pranavanada Bell is made of Panchaloha. When this bell is rung, its primary sound naturally resonates as Pranava — that is Om Om Om. Its echo too continues as Om Om Om, repeating several times and finally merging into Om itself. This is its unique specialty! Panchaloha means it is prepared from five sacred metals — gold, silver, copper, brass, and lead. The hand-held bells are adorned on the upper part with six divine symbols: Shankha/Chakra, Nandishwara, Garuda/Hanuman, Hanuman, Pranava symbol, and Brahmanda Gola. This bell resembles the Pranava sound experienced in the inner vision of ancient Indian sages.",
+      "ourStoryContent": "Pranavanada Bell is made of Panchaloha. When this bell is rung, its primary sound naturally resonates as Pranava — that is Om Om Om. Its echo too continues as Om Om Om, repeating several times and finally merging into Om itself. This is its unique specialty! Panchaloha means it is prepared from five sacred metals — gold, silver, copper, brass, and tin. The hand-held bells are adorned on the upper part with six divine symbols: Shankha/Chakra, Nandishwara, Garuda/Hanuman, Hanuman, Pranava symbol, and Brahmanda Gola. This bell resembles the Pranava sound experienced in the inner vision of ancient Indian sages.",
       "culturalSignificanceContent": "For a spiritual practitioner, this Pranavanada Bell is an excellent instrument during worship, for concentration, chanting, penance, and for meditation seekers.",
       "Traditional Pooja Bell":"Traditional Pooja Bell",
       "Premium Hand Bell":"Premium Hand Bell",

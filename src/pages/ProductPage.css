@@ -275,7 +275,6 @@
     align-items: center;
     gap: 1.5rem;
   }
-  
   .thumbnail-list-vertical {
     flex-direction: row;
     justify-content: center;
@@ -285,16 +284,28 @@
     width: 100%;
     max-width: 400px;
   }
-  
   .main-image-container {
     width: 350px;
     height: 350px;
     order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem auto;
   }
-  
+  .main-product-image {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
   .thumbnail-image {
     width: 70px;
     height: 70px;
+    object-fit: cover;
+    border-radius: 12px;
   }
 }
 
