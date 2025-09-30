@@ -1884,4 +1884,22 @@
   .sound-text {
     font-size: 0.9rem;
   }
+  .gallery-flex-row {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 1.2rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+  }
+  .thumbnail-list-vertical {
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    margin: 0.7rem auto 1.2rem auto !important;
+    padding: 0.5rem 0 !important;
+    width: 100% !important;
+    max-width: 250px !important;
+  }
 }
